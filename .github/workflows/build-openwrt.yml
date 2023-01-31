@@ -66,6 +66,7 @@ jobs:
       with:
         ccache: 'true'
         prefix: ${{ github.workspace }}/openwrt
+        mixkey: 'rockchip'
 
     - name: Load custom feeds
       run: |

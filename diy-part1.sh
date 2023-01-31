@@ -14,8 +14,13 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git targets https://github.com/openwrt/targets.git' >>feeds.conf.default
+echo 'src-git istore_ui https://github.com/linkease/istore-ui.git' >>feeds.conf.default
+echo 'src-git istore https://github.com/linkease/istore.git' >>feeds.conf.default
+
+
 git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
 git clone https://github.com/openwrt-dev/po2lmo.git

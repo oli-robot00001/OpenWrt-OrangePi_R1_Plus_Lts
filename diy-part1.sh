@@ -24,6 +24,3 @@ echo 'src-git istore https://github.com/linkease/istore.git' >>feeds.conf.defaul
 git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
 git clone https://github.com/openwrt-dev/po2lmo.git
-pushd po2lmo
-sudo make && sudo make install
-popd

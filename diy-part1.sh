@@ -20,11 +20,6 @@ echo 'src-git targets https://github.com/openwrt/targets.git' >>feeds.conf.defau
 echo 'src-git istore_ui https://github.com/linkease/istore-ui.git' >>feeds.conf.default
 echo 'src-git istore https://github.com/linkease/istore.git' >>feeds.conf.default
 
-git clone https://github.com/immortalwrt/immortalwrt.git ./tempdir
-ls
-rm -rf target/linux/rockchip/patches-5.15
-mv tempdir/target/linux/rockchip/patches-5.15 target/linux/rockchip/
-rm -rf ./tempdir
 
 git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust

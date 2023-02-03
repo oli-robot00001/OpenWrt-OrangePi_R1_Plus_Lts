@@ -21,7 +21,7 @@ echo 'src-git istore_ui https://github.com/linkease/istore-ui.git' >>feeds.conf.
 echo 'src-git istore https://github.com/linkease/istore.git' >>feeds.conf.default
 
 
-git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
+git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/MentoHUST-OpenWrt-ipk
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
 git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/luci-app-bandwidthd
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter

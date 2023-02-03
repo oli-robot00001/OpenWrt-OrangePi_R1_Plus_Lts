@@ -19,7 +19,8 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 echo 'src-git targets https://github.com/openwrt/targets.git' >>feeds.conf.default
 echo 'src-git istore_ui https://github.com/linkease/istore-ui.git' >>feeds.conf.default
 echo 'src-git istore https://github.com/linkease/istore.git' >>feeds.conf.default
-
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages.git' >>feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small.git' >>feeds.conf.default
 
 git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/MentoHUST-OpenWrt-ipk
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
